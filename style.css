@@ -28,7 +28,7 @@ form {
     box-shadow: 0px 20px 60px rgba(111, 89, 161, 0.08);
     margin-bottom: 30px;
 }
-.prompt {
+.instruction {
     padding: 16px;
     border: 1px solid rgba(65,50,100,0.08);
     width:80%;
@@ -37,7 +37,7 @@ form {
     line-height: 20px;
     color: #272044;
 }
-.button {
+.submit-button {
     margin-left: 10px;
     padding: 14px 24px;
     border: none;
@@ -57,6 +57,9 @@ form {
     border-left: 3px solid #433a64;
     border-radius: 10px;
     box-shadow: 0px 20px 60px rgba(65,50,100,0.08);
+}
+.poem strong{
+    color:#433a64
 }
 footer {
     text-align: center;
