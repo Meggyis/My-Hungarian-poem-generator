@@ -14,18 +14,24 @@
        <h1>AI Hungarian Poem generator</h1>
       </header>
       <main>
+        <div class="form-container">
         <form id="poem-generator-form">
           <input 
            type="text"
-           placeholder="Enter the topic of the Hungarian poem"
+           placeholder="What topic would you like for the Hungarian poem?"
            autofocus
            required
            autocomplete=off
            class="instruction" 
            id="instruction"> 
           <input type="submit" class="submit-button">
+          
         </form>
-    <div class="poem" id="poem">
+        <div class="hint">t.ex. Flower, cloud, wine
+        </div>
+    </div>
+        
+    <div class="poem hidden" id="poem">
     </div>
 </main>
 </body>
