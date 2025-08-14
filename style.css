@@ -86,3 +86,6 @@ footer {
     visibility: hidden;
    } 
 }
+.hidden {
+    display: none;
+}
